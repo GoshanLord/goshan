@@ -1,3 +1,5 @@
+using HorizonSideRobots
+r = Robot(animation = true)
 function move_by_steps(r, Side, Numsteps)
     while Numsteps != 0
         move!(r, Side)
